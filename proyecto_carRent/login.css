@@ -1,0 +1,221 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.937);
+}
+
+header{
+    
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 20px 2px #45f3ff;
+    
+
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    background-image: url('img/ai-generated-8705154_1920.png');
+    background-size: cover;
+    display: inline-block;
+}
+
+ul a{
+    margin-left: 1rem;
+    transition: 1s;
+    color: #fff;
+
+}
+
+ul a:hover{
+    font-size: 1.5rem;
+    color: #00e77f;
+}
+
+
+
+nav{
+    display: flex;
+      
+}
+
+nav ul{
+  
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
+nav div img{
+    width: 50px;
+    
+}
+
+/* encabezado */
+/* hasta aqui esta perfecto.. no tocar.  */
+
+
+
+
+
+
+
+
+.encabezado2{
+    
+    
+    
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+
+   
+    
+
+}
+/*h1 entre el header y la img*/
+/* hasta aqui esta perfecto.. no tocar.  */
+
+
+
+
+.encabezado2 img{
+    
+  
+    width:100%;
+    mask-image: linear-gradient(black 80%, transparent);
+
+    
+
+    
+}
+
+
+/* hasta aqui esta perfecto.. no tocar.  */
+
+
+
+
+
+
+
+
+.container{
+    
+    
+   
+   
+   
+
+    
+
+    
+    margin: 30px;
+    padding: 30px;
+    
+
+
+
+}
+
+
+
+.caja{
+    width:auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.544);
+    background-color:transparent;
+    transition: transform 0.5s;
+    box-shadow: 0 0 20px 2px #45f3ff
+    }
+
+.caja:hover{
+    transform: scale(1.1);
+    
+}
+
+
+button{
+    background-color: lightblue;
+    color: rgb(7, 4, 4);
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+   
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 40px;
+    
+   
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 2px #45f3ff
+ 
+ }
+ 
+ button:hover{
+     
+     color: orangered;
+  
+ }
+
+
+    
+
+
+
+footer{
+    justify-content: space-between;
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+
+
+
+.link{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    justify-content: space-around;
+    margin: 10px;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
